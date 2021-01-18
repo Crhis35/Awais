@@ -1,0 +1,20 @@
+{
+  "name": "awais",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "bin": {
+    "awais": "index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Crhis35/Awais.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Crhis35/Awais/issues"
+  },
+  "homepage": "https://github.com/Crhis35/Awais#readme"
+}
