@@ -1,10 +1,10 @@
 {
-  "name": "awais",
+  "name": "crhis",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "bin": {
-    "awais": "index.js"
+    "crhis": "index.js"
   },
   "repository": {
     "type": "git",
@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/Crhis35/Awais/issues"
   },
-  "homepage": "https://github.com/Crhis35/Awais#readme"
+  "homepage": "https://github.com/Crhis35/Awais#readme",
+  "dependencies": {
+    "clear-any-console": "^1.16.2"
+  }
 }
