@@ -1,5 +1,7 @@
 #!/usr/bin/env node
-
+// *** versions ***
+// MAJOR.MINOR.PATCH
+// 1.0.0
 const clearConsole = require("clear-any-console");
 // ls -al see permisions
 // #!/usr/bin/env python
