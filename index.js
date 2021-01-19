@@ -18,6 +18,11 @@ const info = chalk.blue.inverse;
 const warning = chalk.keyword(`orange`).inverse;
 const error = chalk.red.bold.inverse;
 
+const alerts = require("handler-alerts");
+const checkNode = require("cli-check-node");
+
+checkNode("10", { fail: false });
+
 welcome({
   title: ` Crhistian Caraballo `,
   tagLine: `Howdy, this is so cool`,
@@ -52,3 +57,9 @@ log(
   
   `
 );
+
+alerts({
+  type: `info`,
+  name: ` Info `,
+  msg: `Available on github`,
+});

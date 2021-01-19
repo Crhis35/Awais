@@ -23,7 +23,9 @@
   "homepage": "https://github.com/Crhis35/Awais#readme",
   "dependencies": {
     "chalk": "^4.1.0",
+    "cli-check-node": "^1.3.4",
     "cli-welcome": "^2.2.2",
+    "handler-alerts": "^1.0.1",
     "log-symbols": "^4.0.0"
   }
 }
