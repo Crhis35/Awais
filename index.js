@@ -12,6 +12,12 @@ const log = console.log;
 // chmod 155 a.txt
 // fakeroot chmod 111 a.txt
 
+const sym = require("log-symbols");
+const success = chalk.green.inverse;
+const info = chalk.blue.inverse;
+const warning = chalk.keyword(`orange`).inverse;
+const error = chalk.red.bold.inverse;
+
 welcome({
   title: ` Crhistian Caraballo `,
   tagLine: `Howdy, this is so cool`,
@@ -34,5 +40,15 @@ log(
   ${chalk.hex(`#1da`).bold.inverse(`  Github  `)}: ${chalk.dim(
     `https://github.com/Crhis35`
   )}
+  `
+);
+
+log(
+  `
+  ${sym.success} ${success(` SUCCESS `)} Thank for checking out my cli
+  ${sym.info} ${info(` INFO `)} I'm creating a npm packcage
+  ${sym.warning} ${warning(` WARNING `)} Please don't copy be yourself
+  ${sym.error} ${error(` ERROR `)} I'm on vacation contac me next week
+  
   `
 );
